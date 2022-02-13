@@ -21,4 +21,4 @@ y_pred = pd.DataFrame(y_pred)
 y_test=pd.DataFrame(y_test, columns=['Original'])
 y_test['Prediction']=y_pred
 
-y_test.to_csv('/output/Result.csv',index=False)
+y_test.to_csv('/output/pred_result.csv',index=False)
